@@ -31,7 +31,7 @@ const Page = () => {
     {
       projectimage: "/cinestream.png",
       projectname: "CineStream – A Netflix-Inspired Movies Explorer App",
-      projectdescription: "CineStream is a fully responsive, Netflix-inspired movie streaming application built using React. It features complete authentication, protected routing, dynamic data fetching with loaders, and responsive UI using class components and lifecycle methods. Users can explore trending, popular, top-rated, and original movies, view detailed movie info with similar suggestions, and search for content interactively. The project showcases strong proficiency in React, API integration, routing, conditional rendering, and UI responsiveness across all devices.",
+      projectdescription: "CineStream is a fully responsive, Netflix-inspired movie streaming application built using React. It features complete authentication, protected routing, dynamic data fetching with loaders, and responsive UI using class components and lifecycle methods. Users can explore trending, popular, top-rated, and original movies, view detailed movie info with similar suggestions, and search for content interactively. The project showcases strong proficiency in React, API integration, routing, conditional rendering, and UI responsiveness across all devices.Demo Credentials: Username: rahul, Password: rahul@2021.",
       live: "https://netflixlikwebap.ccbp.tech/",
       github: "https://github.com/ChakradharA2003/MovieListApp",
     },
