@@ -10,15 +10,15 @@ const Page = () => {
     {
       projectimage: "/wepSS.png",
       projectname: "WEP Services Online",
-projectdescription: `The WEPServices Online whic is a Local Service Connector – Full Stack Web Application: A self-initiated full stack web app designed to bridge the gap between local service providers (like electricians, plumbers, and water delivery personnel) and customers in need—born from a real-world problem I personally faced. This solution enables users to quickly find and connect with nearby service providers through a live, location-based interface. Built with Next.js (for seamless routing), Tailwind CSS, Node.js, Express.js, MongoDB, NodeMailer, WebSockets, and Leaflet.js for interactive maps. End-to-end functionality, Real-time location tracking, Scalable and user-friendly design, Online is a real-time, location-aware web platform that intelligently connects customers with nearby service providers—similar to an “Uber for home services.” Designed to solve the inefficiencies of traditional service discovery, it enables users to instantly find and track trusted professionals like electricians, plumbers, and cooks based on real-time proximity and availability. The system is built using Next.js for fast, dynamic frontend rendering and TailwindCSS for a clean, responsive UI. It leverages Node.js and Express.js to power a robust backend, with MongoDB as the database for flexible data handling. The app features secure JWT authentication for protected routing and sessions, and WebSockets for dynamic, live location tracking of service providers—ensuring a seamless and transparent user experience. This project not only demonstrates full-stack mastery but also showcases innovation by solving a real-world problem through scalable architecture and real-time interactivity. This project is a full-stack development to ensure secure and efficient processes. Built with Next.js, Express.js, Node.js, and MongoDB, this system offers a seamless user experience and robust backend architecture. It integrates multi-factor authentication (MFA), including OTP-based verification, to enhance the security of customer logins. 
-Must Watch Demo – <a href="https://drive.google.com/file/d/1jaQnyAuJNmx1L_S4NI5Sq5Pm3B4msVjr/view" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">Watch Demo</a>.`,
+      projectdescription: "The WEPServices Online whic is a Local Service Connector – Full Stack Web Application: A self-initiated full stack web app designed to bridge the gap between local service providers (like electricians, plumbers, and water delivery personnel) and customers in need—born from a real-world problem I personally faced. This solution enables users to quickly find and connect with nearby service providers through a live, location-based interface. Built with Next.js (for seamless routing), Tailwind CSS, Node.js, Express.js, MongoDB, NodeMailer, WebSockets, and Leaflet.js for interactive maps. End-to-end functionality, Real-time location tracking, Scalable and user-friendly design, Online is a real-time, location-aware web platform that intelligently connects customers with nearby service providers—similar to an “Uber for home services.” Designed to solve the inefficiencies of traditional service discovery, it enables users to instantly find and track trusted professionals like electricians, plumbers, and cooks based on real-time proximity and availability. The system is built using Next.js for fast, dynamic frontend rendering and TailwindCSS for a clean, responsive UI. It leverages Node.js and Express.js to power a robust backend, with MongoDB as the database for flexible data handling. The app features secure JWT authentication for protected routing and sessions, and WebSockets for dynamic, live location tracking of service providers—ensuring a seamless and transparent user experience. This project not only demonstrates full-stack mastery but also showcases innovation by solving a real-world problem through scalable architecture and real-time interactivity. This project is a full-stack development to ensure secure and efficient processes. Built with Next.js, Express.js, Node.js, and MongoDB, this system offers a seamless user experience and robust backend architecture. It integrates multi-factor authentication (MFA), including OTP-based verification, to enhance the security of customer logins.",
+      demo: "https://drive.google.com/file/d/1jaQnyAuJNmx1L_S4NI5Sq5Pm3B4msVjr/view",
       live: "https://wepservicesonline.vercel.app/",
       github: "https://github.com/ChakradharA2003/WEPServicesOnlineProject",
     },
     {
       projectimage: "/musicplayer.png",
       projectname: "Ad Free Music Player – A Spotify-Inspired Frontend App",
-      projectdescription:"Ad-Free Music Player – A Spotify-Inspired Frontend App: A sleek, ad-free music streaming platform built entirely on the frontend using React.js, CSS, and the YouTube Data API. This project reimagines the Spotify experience with a custom music player interface that allows users to search, play, favorite, and explore trending songs—all without ads or interruptions. Inspiration & Purpose: Frustrated by constant interruptions in mainstream music apps, I set out to create a cleaner, smoother alternative—built for uninterrupted playback and user-centric design. Every feature was thoughtfully designed to mimic the elegance of Spotify while removing the clutter. Key Features: Search Functionality: Find songs instantly using YouTube’s vast content base. Favorites System: Mark and revisit your favorite tracks anytime. Playback Controls: Custom-built player with play/pause, seek, shuffle, repeat, and volume control. Persistent Bottom Player: Always-visible mini-player while browsing. Trending Section: Displays the most popular songs fetched dynamically. Responsive Design: Smooth experience across devices with dark theme and green Spotify-style highlights. UI Overview: The homepage features a sidebar with navigation (Home, Favorites, Recently Played), a visually engaging trending section, and an always-present bottom audio player that reflects real-time interactions. Each song tile includes artist info and a Favorite button, contributing to a familiar and fluid UX.",
+      projectdescription: "Ad-Free Music Player – A Spotify-Inspired Frontend App: A sleek, ad-free music streaming platform built entirely on the frontend using React.js, CSS, and the YouTube Data API. This project reimagines the Spotify experience with a custom music player interface that allows users to search, play, favorite, and explore trending songs—all without ads or interruptions. Inspiration & Purpose: Frustrated by constant interruptions in mainstream music apps, I set out to create a cleaner, smoother alternative—built for uninterrupted playback and user-centric design. Every feature was thoughtfully designed to mimic the elegance of Spotify while removing the clutter. Key Features: Search Functionality: Find songs instantly using YouTube’s vast content base. Favorites System: Mark and revisit your favorite tracks anytime. Playback Controls: Custom-built player with play/pause, seek, shuffle, repeat, and volume control. Persistent Bottom Player: Always-visible mini-player while browsing. Trending Section: Displays the most popular songs fetched dynamically. Responsive Design: Smooth experience across devices with dark theme and green Spotify-style highlights. UI Overview: The homepage features a sidebar with navigation (Home, Favorites, Recently Played), a visually engaging trending section, and an always-present bottom audio player that reflects real-time interactions. Each song tile includes artist info and a Favorite button, contributing to a familiar and fluid UX.",
       live: "https://add-free-music-app.netlify.app/",
       github: "https://github.com/ChakradharA2003/MusicPlayer",
     },
@@ -64,7 +64,7 @@ Must Watch Demo – <a href="https://drive.google.com/file/d/1jaQnyAuJNmx1L_S4NI
       live: "https://myuberclone.ccbp.tech/",
       github: "https://github.com/ChakradharA2003/uberclone",
     },
-    
+
   ];
 
   const [expandedIndex, setExpandedIndex] = useState(null);
@@ -103,8 +103,8 @@ Must Watch Demo – <a href="https://drive.google.com/file/d/1jaQnyAuJNmx1L_S4NI
                 {expandedIndex === index
                   ? project.projectdescription
                   : project.projectdescription
-                  ? project.projectdescription.substring(0, 120) + "..."
-                  : "No description available"}
+                    ? project.projectdescription.substring(0, 120) + "..."
+                    : "No description available"}
               </p>
               <button
                 onClick={() => handleToggleDescription(index)}
@@ -112,6 +112,20 @@ Must Watch Demo – <a href="https://drive.google.com/file/d/1jaQnyAuJNmx1L_S4NI
               >
                 {expandedIndex === index ? "Read Less" : "Read More"}
               </button>
+              {index === 0 && project.demo && (
+                <p className="text-md font-bold mb-2">
+                  Must Watch Demo:
+                  <span className="text-md text-blue-500 ml-4 underline">
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Watch Now
+                    </a>
+                  </span>
+                </p>
+              )}
               <p className="text-md font-bold mb-2">
                 Live:
                 <span className="text-md text-blue-500 ml-4">
